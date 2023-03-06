@@ -131,18 +131,18 @@ prevStep=(step)=>{
                 
             </div>
             { quiestions[0] && quiestions[1] && quiestions[2] &&
-            <><button
+            <div className='box1' ><button
                         
-                        
+            className='box1'           
             onClick={() => this.onQues(1)}>1</button>
             <button
             
-            
+            className='box2'
             onClick={() => this.onQues(2)}>2</button>
             <button
             
-            
-            onClick={() => this.onQues(3)}>3</button></>
+            className='box3'
+            onClick={() => this.onQues(3)}>3</button></div>
     }
             </>
     
