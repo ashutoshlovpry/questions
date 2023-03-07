@@ -2,12 +2,13 @@
   width: 100%;
   background-color: #F0F0F0;
   padding: 50px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px 10px;
+  
 }
 .Content {
-  display: table;
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
+  width: 60%;
   background-color: #fff;
   padding: 30px;
 }

@@ -1,7 +1,7 @@
 .Content h1{
-    grid-column-start: content-start;
-  grid-column-end: main-end;
-  grid-row-start: content-end;
+      grid-column-start: content-start;
+    grid-column-end: main-end;
+    grid-row-start: content-end;
     margin: 15px 0;
     font-size: 25px;
     font-family: Arial,sans-serif;
@@ -10,4 +10,5 @@
     text-transform: none;
     text-shadow: none;
     text-align: left;
+    
 }
